@@ -1,11 +1,71 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+.up_part {
+  display: flex;
+  align-items: center;
+  h2 {
+    color: #a5aaaf;
+    font-family: "Rubik";
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 230px;
+  }
+  .input {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #ced0d2;
+    border-radius: 28px;
+    padding-left: 15px;
+  }
 }
-.center{
-    &Container{
-        width: 1440px;
+.navbar {
+  max-width: 1239px;
+  margin: 0 auto;
+}
+.imgPoisk {
+  position: relative;
+  right: 35px;
+}
+
+.filter {
+  width: 265px;
+  height: 46px;
+  color: #db4e66;
+  border: 1px solid #ced0d2;
+  border-radius: 26px;
+  padding-right: 140px;
+}
+.bottom_part {
+  display: flex;
+  .left {
+    p {
+      width: 240px;
+      height: 1px;
+      background-color: #a5aaaf;
     }
-   
+    h2 {
+      font-family: "Rubik";
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+  .right {
+    h2 {
+      padding-top: 40px;
+      padding-left: 80px;
+      font-family: "Rubik";
+      font-style: normal;
+      font-size: 30px;
+      line-height: 36px;
+      color: #a5aaaf;
+    }
+  }
+}
+.Cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  width: 740px;
+  margin-left: 324px;
 }
