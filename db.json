@@ -1,0 +1,100 @@
+{
+    "catalog": [
+        {
+            "id": 1,
+            "card": "",
+            "title": "Настольная игра “Сказочное    королевство” с дополненной...",
+            "image": "https://avatars.mds.yandex.net/get-mpic/5222546/img_id1508695558663204386.jpeg/orig",
+            "price": 3600,
+            "timeOfGame": {
+                "id": 1,
+                "image": "",
+                "textTitle": "Время игры: 60-90 мин"
+            },
+            "playCount": {
+                "id": 2,
+                "image": "",
+                "textTitle": "Кол-во игроков:"
+            },
+            "preperatin": {
+                "id": 3,
+                "image": "",
+                "textTitle": "Подготовка: 0 мин"
+            },
+            "basket": {
+                "id": 4,
+                "image": "",
+                "textTitle": "Места: любое"
+            },
+            "hard": {
+                "id": 5,
+                "image": "",
+                "textTitle": "Сложность: простая"
+            }
+        },
+        {
+            "id": 2,
+            "card": "",
+            "title": "Настольная игра “Сказочное    королевство” с дополненной...",
+            "image": "https://avatars.mds.yandex.net/get-mpic/5222546/img_id1508695558663204386.jpeg/orig",
+            "price": 3600,
+            "timeOfGame": {
+                "id": 1,
+                "image": "",
+                "textTitle": "Время игры: 60-90 мин"
+            },
+            "playCount": {
+                "id": 2,
+                "image": "",
+                "textTitle": "Кол-во игроков:"
+            },
+            "preperatin": {
+                "id": 3,
+                "image": "",
+                "textTitle": "Подготовка: 0 мин"
+            },
+            "basket": {
+                "id": 4,
+                "image": "",
+                "textTitle": "Места: любое"
+            },
+            "hard": {
+                "id": 5,
+                "image": "",
+                "textTitle": "Сложность: простая"
+            }
+        },
+        {
+            "id": 3,
+            "card": "",
+            "title": "Настольная игра “Сказочное    королевство” с дополненной...",
+            "image": "https://avatars.mds.yandex.net/get-mpic/5222546/img_id1508695558663204386.jpeg/orig",
+            "price": 3600,
+            "timeOfGame": {
+                "id": 1,
+                "image": "",
+                "textTitle": "Время игры: 60-90 мин"
+            },
+            "playCount": {
+                "id": 2,
+                "image": "",
+                "textTitle": "Кол-во игроков: 2-6"
+            },
+            "preperatin": {
+                "id": 3,
+                "image": "",
+                "textTitle": "Подготовка: 0 мин"
+            },
+            "basket": {
+                "id": 4,
+                "image": "",
+                "textTitle": "Места: любое"
+            },
+            "hard": {
+                "id": 5,
+                "image": "",
+                "textTitle": "Сложность: простая"
+            }
+        }
+    ]
+}

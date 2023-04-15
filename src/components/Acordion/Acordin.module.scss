@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.acordion {
+  height: 589px;
+  width: 1440px;
+  margin: 0 auto;
+  &Lini {
+    border: 1px solid #0000002e;
+    width: 1440px;
+    margin-bottom: 60px;
+    &_End{
+    
+    }
+  }
+  &Component {
+    &TextA {
+      height: 500px;
+      max-width: 1165px;
+      margin: 0 auto;
+      &_h1 {
+        margin-bottom: 92px;
+      }
+    }
+  }
+  &Btn {
+    height: 54px;
+    width: 306px;
+    background: #DB4E66;
+    color: white;
+    border-radius: 14px;
+    border: none;
+    margin-top: 70px;
+  }
+
+}
+.answer {
+  display: none;
+}
+.acardionLini_End{
+    width: 1440px;
+    border: 1px solid #0000002E;
+    
+}

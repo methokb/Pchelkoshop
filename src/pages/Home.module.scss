@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Header {
+  background-image: url("../assets/картинкаРебенки.svg");
+  width: 1440px;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+
+  &Content {
+    text-align: center;
+
+    &,
+    h1 {
+      color: white;
+      position: relative;
+      top: 50%;
+      transform: translateY(-30%);
+      font-size: 55px;
+    }
+  }
+}
+.pHome {
+  font-size: 20px;
+}
+.btnHome {
+  // margin: 0;
+  width: 306px;
+  height: 54px;
+  background: #db4e66;
+  box-shadow: 2px 4px 9px rgba(243, 55, 87, 0.42);
+  border-radius: 14px;
+  border: none;
+  color: white;
+}
+body {
+  background: #E8ECEB;
+}

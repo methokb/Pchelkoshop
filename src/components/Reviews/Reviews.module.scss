@@ -1,0 +1,36 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+.reviews {
+  height: 953px;
+  width: 1165px;
+  margin: 0 auto;
+//   margin-top: 120px;
+  &HeaderH3 {
+    color: #db4e66;
+    text-align: end;
+  }
+  &Irina {
+    height: 368px;
+    width: 564px;
+    border-radius: 14px;
+    background-color: white;
+    &H1{
+        color: #F2B236;
+    }
+    &Span{
+        font-size: 20px;
+    }
+    &_K{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &Text{
+      line-height: 32px;
+      margin-right: 20px;
+    }
+  }
+}

@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.BurgerMenu {
+  height: 69px;
+  width: 1440px;
+  margin: 0 auto;
+}
+.ulBurger {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 35px;
+  align-items: center;
+  margin: 0;
+}
+.textBurger {
+  display: flex;
+  justify-content: end;
+}
+.hoveredList {
+  display: none;
+
+  a {
+    color: #000;
+    background: #fafaf9;
+    width: 140px;
+    text-align: center;
+    padding-top: 18.5px;
+    padding-bottom: 18.5px;
+
+    &:hover {
+      background: #f2b236;
+    }
+  }
+}
+.liBurger {
+  cursor: pointer;
+  background: #f2b236;
+  width: 140px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.liBurger:hover .hoveredList {
+  display: block;
+  flex-direction: column;
+  position: absolute;
+  display: flex;
+}
+.listContainer {
+  max-width: 1090px;
+  margin: 0 auto;
+}
+.mobileBtn {
+  display: none;
+}
+
+@media (max-with: 800px) {
+  .mobileBtn {
+    display: block;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    z-index: 10;
+    top: 27px;
+  }
+}
+
+.ulBurger:hover {
+  filter: brightness(40%);
+}
