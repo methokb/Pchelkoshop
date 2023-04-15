@@ -1,0 +1,47 @@
+
+.Card {
+  width: 320px;
+  height: 462px;
+  border: 1px solid #ced0d2;
+  border-radius: 14px;
+  padding: 15px;
+  
+  .up {
+    display: flex;
+  }
+  .textUp {
+    padding-left: 20px;
+    p {
+      color: #a5aaaf;
+    }
+  }
+  .textCenter {
+    width: 322px;
+    p {
+      font-family: "Rubik";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      color: #222528;
+    }
+    .b {
+      text-decoration: underline;
+    }
+  }
+  .textBottom{
+    display: flex;
+    color: #A5AAAF;
+    gap: 5px;
+    .p2{
+        text-decoration: underline;
+    }
+  }
+  .path{
+    h3{
+        color: #DB4E66;
+        text-align: center;
+        font-size: 17px
+    }
+  }
+}
