@@ -28,7 +28,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <Burger/>
+      <Burger />
     </>
   )
 }

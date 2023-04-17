@@ -1,5 +1,6 @@
 import React from 'react'
 import style from "./Burger.module.scss"
+import { Link } from 'react-router-dom'
   
 const Burger = () => {
   return (
@@ -9,7 +10,7 @@ const Burger = () => {
 
           <ul className={style.ulBurger}>
             <li>Каталог</li>
-            <li>Акции</li>
+            <li><Link to='/promotion'>Акции</Link></li>
             <li>Отзывы</li>
             <li>Доставка и оплата</li>
             <div>
