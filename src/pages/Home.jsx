@@ -3,7 +3,6 @@ import style from "./Home.module.scss"
 import Seti from '../components/SotialSeti/Seti'
 import Stock from '../components/Stock/Stock'
 import GamesCaralog from '../components/GamesCatalog/GamesCatalog'
-import Center from '../components/Center/Center'
 import Video from '../components/Video/Video'
 import Quest from '../components/quests/Quest'
 import Acordion from '../components/Acordion/Acordion'
@@ -33,7 +32,6 @@ const Home = () => {
       <Seti/>
       <Stock/>
       <GamesCaralog/>
-      <Center/>
       <Video/>
       <Quest/>
       <Acordion/>
