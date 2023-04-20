@@ -1,0 +1,26 @@
+{
+    "katalog" : [
+        {
+            "id": 1,
+            "title": "hefbeffebfueuifbuib",
+            "author": "efnjefnjefjn",
+            "image": "./src/pages/Rectangle 65.svg"
+        },
+        {
+            "id": 2,
+            "title": "hefbeffebfueuifbuib",
+            "author": "efnjefnjefjn",
+            "image": "./src/pages/Rectangle 65.svg"
+        },   {
+            "id": 3,
+            "title": "hefbeffebfueuifbuib",
+            "author": "efnjefnjefjn",
+            "image": "./src/pages/Rectangle 65.svg"
+        },   {
+            "id": 4,
+            "title": "hefbeffebfueuifbuib",
+            "author": "efnjefnjefjn",
+            "image": "./src/pages/Rectangle 65.svg"
+        }
+    ]
+}
