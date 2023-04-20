@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Card.module.scss";
-
+import { Link } from "react-router-dom";
 const Card = ({ img, text, number }) => {
   return (
     <div className={style.Card}>
@@ -27,6 +27,7 @@ const Card = ({ img, text, number }) => {
       </div>
       <div className={style.path}>
         <h3>Читать полностью</h3>
+        <h3> <Link to='/promotionPage'>Читать полностью</Link></h3>
       </div>
     </div>
   );

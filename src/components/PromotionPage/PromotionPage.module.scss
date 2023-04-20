@@ -1,0 +1,77 @@
+.promotionPage{
+    width: 1440px;
+    .line1{
+        width: 1440px;
+        height: 1px;
+        background-color: rgba(206, 208, 210, 1); ;
+        margin-bottom: 50px;
+    }
+    .line2{
+        width: 1440px;
+        height: 1px;
+        background-color: rgba(206, 208, 210, 1); ;
+        margin-bottom: 80px;
+        margin-top: 160px;
+    }
+    .podblock{
+        width: 1240px;
+    }
+    .Header{
+        width: 1440px;
+        height: 89px;
+        margin: 0 auto;
+    }
+    .headerText{
+        display: inline-flex;
+        color: #A5AAAF;
+        font-size: 16px;
+        font-weight: 400;
+        padding-left: 100px;
+        gap: 10px;
+        font-family: 'Rubik';
+        padding-top: 30px;
+    }
+    .page{
+        .h1{
+            margin-bottom: 65px;
+        }
+        .h2{
+        color: #5B636B;
+        margin-bottom: 20px;
+        }
+        .base{
+            display:inline-flex;
+            gap: 25px;
+            .actionImg{
+    
+            }
+            .textBase{
+                display: grid;
+                gap: 105px;
+                .title{
+                    color: #CED0D2;
+                    font-size: 30px;
+                    font-weight: 600;
+                }
+                .subTitle{
+                    width: 665px;
+                    height: 260px;
+                    font-size: 19px;
+                    line-height: 25px;
+                }
+                .subTitle2{
+                    width: 665px;
+                    height: 78px;
+                    font-size: 19px;
+                    line-height: 25px;
+                }
+                .title2{
+                    color: #5B636B;
+                    font-size: 30px;
+                    font-weight: 600;
+                }
+            }
+        }
+       
+    }
+}

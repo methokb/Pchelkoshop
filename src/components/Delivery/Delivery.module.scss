@@ -1,0 +1,105 @@
+.deliverys {
+  margin: 0 auto;
+  width: 1440px;
+  .getProduct {
+    text-align: center;
+    h1 {
+      text-align: center;
+      color: #a5aaaf;
+    }
+    .options {
+      display: inline-flex;
+      padding-top: 50px;
+      gap: 90px;
+      font-family: 'Rubik';
+      font-size: 20px;
+      font-weight: 600;
+      .one {
+        p {
+          width: 263px;
+        }
+      }
+      .two {
+        p {
+          width: 260px;
+        }
+      }
+      .three {
+        p {
+          width: 300px;
+        }
+      }
+    }
+
+  }
+  .menu{
+    ul{
+      display: flex;
+      gap: 20px;
+      font-size: 18px;
+      font-family: 'Rubik';
+      font-weight: 600;
+      padding-top: 60px;
+      padding-left: 140px;
+    }
+  }
+  .title {
+    padding-top: 77px;
+    padding-left: 138px;
+  }
+
+  .routing {
+    width: 1440px;
+    height: 89px;
+    margin: 0 auto;
+    background-color: #fafaf9;
+  }
+  .routingText {
+    display: inline-flex;
+    color: #a5aaaf;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 100px;
+    padding-top: 30px;
+    gap: 10px;
+    font-family: "Rubik";
+  }
+  .commonBlock{
+    font-family: 'Rubik';
+    .block1{
+      h1{
+        color: #F2B236;
+      }
+      p{
+      width: 710px;
+      }
+    }
+    .block2{
+      h1{
+        color: #F2B236;
+      }
+    }
+    .block3{
+      h1{
+        color:#F2B236;
+      }
+    }
+  }
+}
+
+.menuParent::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  margin-left: 50%;
+  background-color: #222222;
+  border-radius: 100px;
+}
+
+.menuParent:hover::after {
+  margin: 0;
+  transition: 0.3s ease-out;
+  width: 5%;
+  cursor: pointer;
+}

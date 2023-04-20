@@ -10,6 +10,7 @@
     margin-right: 230px;
   }
   .input {
+  .inputSearch {
     width: 400px;
     height: 40px;
     border: 1px solid #ced0d2;
@@ -43,6 +44,50 @@
       background-color: #a5aaaf;
     }
     h2 {
+    position: relative;
+  }
+}
+
+.navbar {
+  max-width: 1239px;
+  margin: 0 auto;
+  .TextPromotion {
+    font-weight: 500;
+    font-family: sans-serif;
+    font-style: normal;
+    margin: 0 auto;
+    padding-top: 30px;
+    h1 {
+      margin: auto;
+    }
+  }
+}
+.imgPoisk {
+  position: absolute;
+  right: 847px;
+}
+
+.filter {
+  width: 265px;
+  height: 46px;
+  color: #db4e66;
+  border: 1px solid #ced0d2;
+  border-radius: 26px;
+  padding-right: 140px;
+}
+.bottom_part {
+  display: flex;
+  .left {
+    h2{
+      color: #A5AAAF;
+      font-family: 'Rubik';
+    }
+    p {
+      width: 240px;
+      height: 1px;
+      background-color: #a5aaaf;
+    }
+    h3 {
       font-family: "Rubik";
       font-size: 18px;
       font-weight: 600;
@@ -56,6 +101,10 @@
       font-style: normal;
       font-size: 30px;
       line-height: 36px;
+      padding-left: 116px;
+      font-family: "Rubik";
+      font-style: normal;
+      font-size: 30px;
       color: #a5aaaf;
     }
   }
@@ -69,3 +118,77 @@
   width: 740px;
   margin-left: 324px;
 }
+  // display: grid;
+  // grid-template-columns: repeat(2, 1fr);
+  // grid-template-rows: repeat(2, 1fr);
+  // grid-column-gap: 90px;
+  // grid-row-gap: 90px;
+  width: 740px;
+  margin-left: 324px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+  @media(max-width:375px) {
+    .navbar{
+      .TextPromotion{
+        padding-left: 25px;
+      }
+         .up_part {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+  
+  
+        .inputSearch{
+          width: 290px;
+          position: relative;
+        }
+        .imgPoisk{
+            position: absolute;
+            right: 50px;
+            top: 380px;
+        }
+      }
+      .bottom_part{
+        flex-direction: column;
+        padding-left: 23px;
+        .left{
+          width: 260px;
+          height: 265px;
+          background: #FFFFFF;
+          box-shadow: 0px 4px 9px #D3D3D3;
+          border-radius: 21px;
+          padding: 12px 0px 0px 20px;
+          h2{
+            color: #db4e66;
+            padding-bottom: 25px;
+            font-family: 'Rubik';
+            font-size: 18px;
+          }
+          .right{
+            h2{
+
+            }
+          }
+}
+        }
+      }
+      .Cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 20px;
+        width: 20%;
+      }
+      .filter{
+        width: 250px;
+        background: none;
+        border: none;
+      }
+    }
+  }

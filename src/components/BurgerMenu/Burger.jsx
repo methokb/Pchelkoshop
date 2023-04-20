@@ -12,8 +12,10 @@ const Burger = () => {
             <li><Link to='/decor'>офор</Link></li>
             <li><Link to='/catalog'>Каталог</Link></li>
             <li><Link to='/promotion'>Акции</Link></li>
+            <li><Link to="/catalog">Каталог</Link></li>
+            <li><Link to="/promotion">Акции</Link></li>
             <li>Отзывы</li>
-            <li>Доставка и оплата</li>
+            <li><Link to="/delivery">Доставка и оплата</Link></li>
             <div>
               <li className={style.liBurger}>О комапании
                 <div className={style.hoveredList}>

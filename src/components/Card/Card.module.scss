@@ -1,11 +1,11 @@
-
 .Card {
   width: 320px;
   height: 462px;
+  height: 382px;
   border: 1px solid #ced0d2;
   border-radius: 14px;
   padding: 15px;
-  
+
   .up {
     display: flex;
   }
@@ -29,19 +29,24 @@
       text-decoration: underline;
     }
   }
-  .textBottom{
+  .textBottom {
     display: flex;
-    color: #A5AAAF;
+    color: #a5aaaf;
     gap: 5px;
-    .p2{
-        text-decoration: underline;
+    .p2 {
+      text-decoration: underline;
     }
   }
-  .path{
-    h3{
-        color: #DB4E66;
+  .path {
+    h3 {
+      color: #db4e66;
+      text-align: center;
+      font-size: 17px h3 a {
+        color: #db4e66;
         text-align: center;
-        font-size: 17px
+        font-size: 17px;
+        padding-top: 10px;
+      }
     }
   }
 }
