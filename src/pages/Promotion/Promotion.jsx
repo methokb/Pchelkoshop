@@ -8,12 +8,10 @@ const Promotion = () => {
       <Header />
       <p className={style.line}></p>
       <div className={style.container}>
-        <div className={style.TextPromotion}>
-          <h1>Акции и новости</h1>
-        </div>
       </div>
       <Center />
       <p className={style.line2}></p>
+
     </>
   );
 };

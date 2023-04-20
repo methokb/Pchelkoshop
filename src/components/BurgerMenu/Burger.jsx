@@ -1,5 +1,6 @@
 import React from 'react'
 import style from "./Burger.module.scss"
+import { Link } from 'react-router-dom'
   
 const Burger = () => {
   return (
@@ -8,10 +9,10 @@ const Burger = () => {
         <div className={style.textBurger}>
 
           <ul className={style.ulBurger}>
-            <li>Каталог</li>
-            <li>Акции</li>
+            <li><Link to="/catalog">Каталог</Link></li>
+            <li><Link to="/promotion">Акции</Link></li>
             <li>Отзывы</li>
-            <li>Доставка и оплата</li>
+            <li><Link to="/delivery">Доставка и оплата</Link></li>
             <div>
               <li className={style.liBurger}>О комапании
                 <div className={style.hoveredList}>
