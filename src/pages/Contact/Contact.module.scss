@@ -1,0 +1,95 @@
+.container {
+  max-width: 1165px;
+  margin: 0 auto;
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .contacts {
+      display: flex;
+      flex-direction: column;
+      h2 {
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 44px;
+        line-height: 52px;
+        color: #222528;
+        margin-bottom: 80px;
+      }
+      .number {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 31px;
+        line-height: 140%;
+        color: #222528;
+        display: flex;
+        gap: 10px;
+        margin-bottom: 50px;
+      }
+      .email {
+        margin-bottom: 51px;
+        p {
+          font-family: 'Rubik';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 160%;
+          color: #5b636b;
+        }
+        span {
+          font-family: 'Rubik';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 140%;
+          color: #222528;
+          display: flex;
+          gap: 10px;
+        }
+      }
+      .companyDetails {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 48px;
+        li {
+          list-style-type: none;
+          font-family: 'Rubik';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 140%;
+          color: #222528;
+        }
+      }
+      .address {
+        margin-bottom: 60px;
+        p {
+          font-family: 'Rubik';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 160%;
+          color: #5b636b;
+        }
+        h3 {
+          max-width: 715px;
+          font-family: 'Rubik';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 140%;
+          color: #222528;
+        }
+      }
+    }
+    .socialMedias {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      margin-bottom: 30px;
+    }
+  }
+}
