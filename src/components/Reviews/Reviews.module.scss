@@ -3,34 +3,47 @@
   padding: 0;
   box-sizing: border-box;
 }
-.reviews {
-  height: 953px;
-  width: 1165px;
+.card {
+  width: 564px;
+  height: 368px;
+  background: #ffffff;
+  box-shadow: 0px 4px 9px #d3d3d3;
+  border-radius: 14px;
+}
+
+.cardInner {
+  margin: 0 130px;
+  display: grid;
+  grid-template-columns: 564px 564px;
+  gap: 5rem;
+  margin-bottom: 170px;
+}
+.up_title {
+}
+.up_right {
+}
+.blockBlock {
+  display: flex;
+  max-width: 470px;
   margin: 0 auto;
-//   margin-top: 120px;
-  &HeaderH3 {
-    color: #db4e66;
-    text-align: end;
+  line-height: 30px;
+  padding-top: 20px;
+}
+.faiCard {
+  color: #f2b236;
+  font-weight: 300;
+}
+.faiC {
+  font-size: 20px;
+}
+.titleReviews {
+  padding: 20px;
+  &P {
+    width: 440px;
+    line-height: 20px;
   }
-  &Irina {
-    height: 368px;
-    width: 564px;
-    border-radius: 14px;
-    background-color: white;
-    &H1{
-        color: #F2B236;
-    }
-    &Span{
-        font-size: 20px;
-    }
-    &_K{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    &Text{
-      line-height: 32px;
-      margin-right: 20px;
-    }
-  }
+}
+.imageReviews {
+  height: 121px;
+  width: 120px;
 }

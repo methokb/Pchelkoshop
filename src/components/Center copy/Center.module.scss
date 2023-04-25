@@ -9,7 +9,7 @@
         font-weight: 600;
         margin-right: 230px;
     }
-    .inputSearch{
+    .input{
         width: 400px;
         height: 40px;
         border: 1px solid #CED0D2;
@@ -21,7 +21,6 @@
 .navbar{
     max-width: 1239px;
     margin: 0 auto;
-    padding-left: 100px;
 }
 .imgPoisk{
     position: relative;
@@ -71,59 +70,3 @@
     width: 740px;
     margin-left: 324px;
 }
-
-  @media(max-width:375px) {
-    .navbar{
-      .TextPromotion{
-        padding-left: 25px;
-      }
-         .up_part {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-  
-  
-        .inputSearch{
-          width: 290px;
-          position: relative;
-        }
-        .imgPoisk{
-            position: absolute;
-            right: 50px;
-            top: 380px;
-        }
-      }
-      .bottom_part{
-        flex-direction: column;
-        padding-left: 23px;
-        .left{
-          width: 260px;
-          height: 265px;
-          background: #FFFFFF;
-          box-shadow: 0px 4px 9px #D3D3D3;
-          border-radius: 21px;
-          padding: 12px 0px 0px 20px;
-          h2{
-            color: #db4e66;
-            padding-bottom: 25px;
-            font-family: 'Rubik';
-            font-size: 18px;
-          }
-        }
-      }
-      .Cards{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        margin-left: 20px;
-        width: 20%;
-      }
-      .filter{
-        width: 250px;
-        background: none;
-        border: none;
-      }
-    }
-  }
-
-

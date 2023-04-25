@@ -4,7 +4,7 @@ import headerLupa from "../../assets/headerLupa.svg"
 import headerKarzina from "../../assets/headerKarzina.svg"
 import headerProfil from "../../assets/headerProfil.svg"
 import Burger from '../../components/BurgerMenu/Burger'
-
+import { Link } from 'react-router-dom'
 
 
 const Header = () => {
@@ -12,10 +12,10 @@ const Header = () => {
     <>
       <div className='container_header'>
         <div className="header">
-          <img src={Header_1} alt="" />
+         <Link to='/House'><img src={Header_1} alt="" /></Link> 
           <p>8-(000)-000-00-00 МСК (9-21)</p>
           <div className="input">
-            <input className='input_header' type="text" placeholder='Поиск по сайту...' />
+            <input className='input_header' type="search" placeholder='Поиск по сайту...' />
             <img className='headerLupa' src={headerLupa} alt="" />
           </div>
           <div className="headerGap">
@@ -28,7 +28,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <Burger/>
+      <Burger />
     </>
   )
 }
