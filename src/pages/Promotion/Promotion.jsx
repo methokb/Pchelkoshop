@@ -1,18 +1,14 @@
 import React from "react";
-import Header from "../../components/Header/Header";
+import HeaderPromotion from "../../components/HeaderPromotion/HeaderPromotion";
 import style from "./Promotion.module.scss";
 import Center from "../../components/Center/Center";
-const Promotion = () => {
+const Promotion = ({ setValue, data, setData }) => {
   return (
     <>
-      <Header />
+      <HeaderPromotion />
       <p className={style.line}></p>
-      <div className={style.container}>
-        <div className={style.TextPromotion}>
-          <h1>Акции и новости</h1>
-        </div>
-      </div>
-      <Center />
+      <div className={style.container}></div>
+      <Center setValue={setValue} data={data} setData={setData} />
       <p className={style.line2}></p>
     </>
   );

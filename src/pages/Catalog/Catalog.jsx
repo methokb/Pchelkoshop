@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import style from "./Catalog.module.scss"
 
 const Catalog = () => {
@@ -12,7 +12,6 @@ const Catalog = () => {
         </div>
     </div>
     <div className={style.catalog}>
-
     </div>
     </>
   )
