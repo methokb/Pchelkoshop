@@ -1,13 +1,12 @@
-import React from "react";
-import style from "./Home.module.scss";
-import Seti from "../components/SotialSeti/Seti";
-import Stock from "../components/Stock/Stock";
-import GamesCaralog from "../components/GamesCatalog/GamesCatalog";
-import Center from "../components/Center/Center";
-import Video from "../components/Video/Video";
-import Quest from "../components/quests/Quest";
-import Acordion from "../components/Acordion/Acordion";
-import Reviews from "../components/Reviews/Reviews";
+import React from 'react'
+import style from "./Home.module.scss"
+import Seti from '../components/SotialSeti/Seti'
+import Stock from '../components/Stock/Stock'
+import GamesCaralog from '../components/GamesCatalog/GamesCatalog'
+import Video from '../components/Video/Video'
+import Quest from '../components/quests/Quest'
+import Acordion from '../components/Acordion/Acordion'
+import Reviews from '../components/Reviews/Reviews'
 
 const Home = () => {
   return (
@@ -28,16 +27,15 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Seti />
-      <Stock />
-      <GamesCaralog />
-      <Center />
-      <Video />
-      <Quest />
-      <Acordion />
-      <Reviews />
+      <Seti/>
+      <Stock/>
+      <GamesCaralog/>
+      <Video/>
+      <Quest/>
+      <Acordion/>
+      <Reviews/>
     </>
-  );
-};
+  )
+}
 
 export default Home;
