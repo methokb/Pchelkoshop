@@ -1,3 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card {
+  width: 564px;
+  height: 368px;
+  background: #ffffff;
+  box-shadow: 0px 4px 9px #d3d3d3;
+  border-radius: 14px;
+}
 .card {
   width: 564px;
   height: 368px;
@@ -9,13 +21,9 @@
 .cardInner {
   margin: 0 130px;
   display: grid;
-  grid-template-columns: 564px 564px;
-  gap: 5rem;
+  grid-template-columns: 564px;
 }
-.up_title {
-}
-.up_right {
-}
+
 .blockBlock {
   display: flex;
   max-width: 470px;

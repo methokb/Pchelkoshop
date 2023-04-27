@@ -22,6 +22,12 @@ const Header = () => {
               placeholder="Поиск по сайту..."
             />
             <img className="headerLupa" src={headerLupa} alt="" />
+
+         <Link to='/House'><img src={Header_1} alt="" /></Link> 
+          <p>8-(000)-000-00-00 МСК (9-21)</p>
+          <div className="input">
+            <input className='input_header' type="search" placeholder='Поиск по сайту...' />
+            <img className='headerLupa' src={headerLupa} alt="" />
           </div>
           <div className="headerGap">
             <p className="karzina">
@@ -35,9 +41,10 @@ const Header = () => {
           </div>
         </div>
       </div>
+      </div>
       <Burger />
     </>
-  );
-};
+  )
+}
 
 export default Header;
