@@ -1,14 +1,16 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Decor from "./pages/Decor/Decor";
-import Layout from "./Layout/Layout";
 import Home from "./pages/Home";
 import Promotion from "./pages/Promotion/Promotion";
+import Private from "./pages/Private/Private";
 import PromotionPage from "./components/PromotionPage/PromotionPage";
 import Delivery from "./components/Delivery/Delivery";
 import Catalog from "./pages/Catalog/Catalog";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import Header from "./Layout/Header/Header";
+import Footer from "./Layout/Footer/Footer";
 
 const App = () => {
   const [data, setData] = useState([]);
@@ -31,19 +33,24 @@ const App = () => {
 
   return (
     <>
+      <Header />
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route path="" element={<Home />} />
-          <Route
-            path="/promotion"
-            element={<Promotion setValue={setValue} data={data} setData={setData} />}
-          />
-          <Route path="/catalog" element={<Catalog />} />
-          <Route path="/decor" element={<Decor />} />
-          <Route path="/promotionPage" element={<PromotionPage />} />
-          <Route path="/delivery" element={<Delivery />} />
-        </Route>
+        <Route path="/" element={<Home />} />
+        <Route path="/promotion" element={<Promotion />} />
+        <Route path="/private" element={<Private />} />
+        <Route path="" element={<Home />} />
+        <Route
+          path="/promotion"
+          element={
+            <Promotion setValue={setValue} data={data} setData={setData} />
+          }
+        />
+        <Route path="/catalog" element={<Catalog />} />
+        <Route path="/decor" element={<Decor />} />
+        <Route path="/promotionPage" element={<PromotionPage />} />
+        <Route path="/delivery" element={<Delivery />} />
       </Routes>
+      <Footer />
     </>
   );
 };

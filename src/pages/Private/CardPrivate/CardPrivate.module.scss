@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.CardPrivate {
+  display: flex;
+  width: 665px; 
+}
+.h3_ {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #222528;
+}
+
+.txt_2 {
+  display: flex;
+  gap: 50px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #a5aaaf;
+  font-family: sans-serif;
+  padding-top: 10px;
+}
+
+.txt_3 {
+  display: flex;
+  gap: 100px;
+  color: #5b636b;
+  padding-top: 10px;
+}
+.p_4 {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #5b636b;
+}
+.p_5 {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #5b636b;
+}
+.p_6 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 21px;
+    color: #f2b236;
+}
+
+.p_7 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #DB4E66;
+    margin-left: 350px;
+}
+
