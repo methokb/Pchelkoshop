@@ -151,12 +151,12 @@ const Private = () => {
                 <img src={VectorUp} alt="" />
               </div>
 
-              <div>
+              <div className={style.pXinput1}>
                 <p className={style.p_email}>Почта</p>
                 <input type="email" value="exaple@mail.ru" className={style.inputAcc} />
               </div>
 
-              <div>
+              <div className={style.pXinput2}>
                 <p className={style.p_password}>Пароль</p>
                 <input type="password" className={style.inputAcc_2} />
               </div>
@@ -182,6 +182,21 @@ const Private = () => {
             </div>
 
             {/*  */}
+            <br />
+            <br />
+                        <div className={style.bott}>
+                          <p className={style.exit}>Выйти из аккаунта</p>
+
+                          <br />
+                          <br />
+                          <br />
+                          <br />
+                          <br />
+                          <br />
+                          <p className={style.p_line_bott}></p>
+                          </div>
+                          
+
           </div>
         </div>
       </div>
