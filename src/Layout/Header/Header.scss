@@ -1,7 +1,7 @@
-*{
-padding: 0;
-margin: 0;
-box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 .container_header {
   height: 144px;
@@ -19,7 +19,6 @@ box-sizing: border-box;
   border-radius: 26px;
   display: flex;
   align-items: center;
-  justify-self: center;
 }
 .karzina {
   width: 45px;
@@ -52,18 +51,15 @@ box-sizing: border-box;
   position: relative;
   left: 10px;
 }
-.headerGap{
+.headerGap {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
 }
-.navbar{
+.navbar {
   height: 69px;
-width: 1440px;
-
-
+  width: 1440px;
 }
-.headerLupa{
-
+.headerLupa {
 }

@@ -1,11 +1,12 @@
 import React from "react";
-import style from "./Header.module.scss";
+import style from "./HeaderPromotion.module.scss";
 import img1 from "../../assets/strelka.svg";
-const Header = () => {
+import { Link } from "react-router-dom";
+const HeaderPromotion = () => {
   return (
     <div className={style.Header}>
       <div className={style.headerText}>
-        <p>Главная</p>
+        <p><Link to='/'>Главная</Link></p>
         <img src={img1} alt="" />
         <p>Акции</p>
       </div>
@@ -13,4 +14,5 @@ const Header = () => {
   );
 };
 
-export default Header;
+
+export default HeaderPromotion;
