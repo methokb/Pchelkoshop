@@ -1,0 +1,429 @@
+.container {
+  max-width: 1165px;
+  margin: 0 auto;
+  .cooperation {
+    margin-bottom: 100px;
+    @media (max-width: 400px) {
+      text-align: center;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .title {
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 44px;
+      line-height: 52px;
+      color: #222528;
+      margin-bottom: 32px;
+      @media (max-width: 400px) {
+        font-size: 39px;
+      }
+    }
+    .description {
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+      color: #5b636b;
+      margin-bottom: 67px;
+    }
+    .list {
+      list-style-type: none;
+      margin-bottom: 24px;
+    }
+
+    .list li::before {
+      content: '\2022';
+      color: orange;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+      font-family: 'Rubik';
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+    }
+    .helperText {
+      font-family: 'Rubik';
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+      color: #222528;
+      margin-bottom: 24px;
+      @media (max-width: 400px) {
+        width: 276px;
+      }
+    }
+    .contact {
+      p {
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #90c1bf;
+        margin-bottom: 16px;
+      }
+    }
+    .socials {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .firstRule {
+      h3 {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #222528;
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        max-width: 916px;
+        margin-bottom: 40px;
+        span {
+          font-family: 'Rubik';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 50px;
+          line-height: 59px;
+          text-align: center;
+          background: linear-gradient(92.55deg, #f2b236 32.31%, #ff9c1a 64.34%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          text-fill-color: transparent;
+        }
+      }
+    }
+    .secondRule {
+      margin-top: 67px;
+      h3 {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #222528;
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        max-width: 916px;
+        margin-bottom: 40px;
+        span {
+          font-family: 'Rubik';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 50px;
+          line-height: 59px;
+          text-align: center;
+          background: linear-gradient(92.55deg, #f2b236 32.31%, #ff9c1a 64.34%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          text-fill-color: transparent;
+        }
+        div {
+          h4 {
+            font-family: 'Rubik';
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            color: #5b636b;
+          }
+        }
+      }
+      .secondList {
+        list-style-type: none;
+        margin-bottom: 24px;
+      }
+
+      .secondList li::before {
+        content: '\2022';
+        color: orange;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+        font-family: 'Rubik';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+      }
+      .secondHelperText {
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #222528;
+        margin-bottom: 24px;
+      }
+
+      .secondContact {
+        p {
+          font-family: 'Rubik';
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 21px;
+          color: #90c1bf;
+          margin-bottom: 16px;
+        }
+      }
+      .secondSocials {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+    }
+    .thirdRule {
+      margin-top: 67px;
+      h3 {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #222528;
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        width: 916px;
+        margin-bottom: 40px;
+        span {
+          font-family: 'Rubik';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 50px;
+          line-height: 59px;
+          text-align: center;
+          background: linear-gradient(92.55deg, #f2b236 32.31%, #ff9c1a 64.34%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          text-fill-color: transparent;
+        }
+        div {
+          h4 {
+            font-family: 'Rubik';
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            color: #5b636b;
+            @media (max-width: 470px) {
+              width: 300px;
+            }
+          }
+        }
+      }
+      .thirdList {
+        list-style-type: none;
+        margin-bottom: 24px;
+      }
+
+      .thirdList li::before {
+        content: '\2022';
+        color: orange;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+        font-family: 'Rubik';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+      }
+      .thirdHelperText {
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #222528;
+        margin-bottom: 24px;
+      }
+
+      .rec {
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #db4e66;
+      }
+      .secondSocials {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+    }
+  }
+}
+.coopReq {
+  background: linear-gradient(92.55deg, #f2b236 32.31%, #ff9c1a 64.34%);
+  max-width: 1440px !important;
+  margin-bottom: 100px;
+  min-height: 684px;
+  max-height: auto;
+  .formContainer {
+    max-width: 753px;
+    margin: auto;
+    padding-top: 100px;
+    .coopTitle {
+      font-family: 'Rubik';
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 28px;
+      text-align: center;
+      color: #fafaf9;
+    }
+    .coopDescription {
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      text-align: center;
+      color: #fafaf9;
+    }
+    form {
+      margin-top: 45px;
+      .form {
+        display: flex;
+        justify-content: space-between;
+        @media (max-width: 680px) {
+          flex-direction: column;
+          align-items: center;
+        }
+        .left {
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+          div {
+            display: flex;
+            flex-direction: column;
+            input {
+              width: 329px;
+              height: 40px;
+              padding-left: 10px;
+              background: #ffffff;
+              border: 1px solid #fafaf9;
+              border-radius: 6px;
+              &:focus {
+                outline: none;
+              }
+            }
+            label {
+              font-family: 'Rubik';
+              font-style: normal;
+              font-weight: 3 00;
+              font-size: 16px;
+              line-height: 160%;
+              color: #fafaf9;
+            }
+            span {
+              color: rgba(219, 78, 102, 1);
+            }
+          }
+        }
+        .right {
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+          div {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            .drop {
+              width: 329px;
+              max-height: 190px;
+              background: #ffffff;
+              border: 1px solid #ced0d2;
+              border-radius: 6px;
+              position: absolute;
+              top: 70px;
+              ul {
+                list-style-type: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 100%;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                li {
+                  &:last-child {
+                    border-bottom: none;
+                  }
+                  &:hover {
+                    background-color: rgba(0, 0, 0, 0.1);
+                  }
+                  padding-left: 13px;
+                  font-family: 'Rubik';
+                  font-weight: 400;
+                  font-size: 16px;
+                  line-height: 213%;
+                  color: #222528;
+                  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+                  cursor: pointer;
+                }
+              }
+            }
+            .input {
+              display: inline-block;
+              position: relative;
+              .inputArrow {
+                position: absolute;
+                left: 300px;
+                margin-top: 7px;
+              }
+            }
+            input {
+              width: 329px;
+              height: 40px;
+              padding-left: 10px;
+              padding-right: 30px;
+              background: #ffffff;
+              font-family: 'Rubik';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 17px;
+              border: 1px solid #fafaf9;
+              border-radius: 6px;
+              &:focus {
+                outline: none;
+              }
+            }
+            label {
+              font-family: 'Rubik';
+              font-style: normal;
+              font-weight: 3 00;
+              font-size: 16px;
+              line-height: 160%;
+              color: #fafaf9;
+            }
+            span {
+              color: rgba(219, 78, 102, 1);
+            }
+          }
+        }
+      }
+      .button {
+        text-align: center;
+        margin-top: 56px;
+        button {
+          width: 306px;
+          height: 54px;
+          background: #db4e66;
+          box-shadow: 2px 4px 9px rgba(243, 55, 87, 0.42);
+          border-radius: 14px;
+          border-style: none;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+          text-align: center;
+          text-transform: uppercase;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

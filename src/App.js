@@ -7,6 +7,7 @@ import Header from './Layout/Header/Header';
 import Catalog from './pages/Catalog/Catalog';
 import Decor from './pages/Decor/Decor';
 import Contact from './pages/Contact/Contact';
+import Cooperation from './pages/Cooperation/Cooperation';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/catalog" element={<Catalog />} />
         <Route path="/decor" element={<Decor />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/cooperation" element={<Cooperation />} />
       </Routes>
       <Footer />
     </>
