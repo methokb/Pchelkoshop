@@ -8,8 +8,6 @@ import Quest from '../components/quests/Quest'
 import Acordion from '../components/Acordion/Acordion'
 import Reviews from '../components/Reviews/Reviews'
 
-
-
 const Home = () => {
   return (
     <>
@@ -19,16 +17,16 @@ const Home = () => {
             <h1>
               Квест в коробке – объединяет
               <br />
-              семью и друзей в поисках разгадки <br/>
-               <p className={style.pHome}>Подготовка до 10 минут, прохождение 60-90 минут, яркие эмоции - надолго!</p>
+              семью и друзей в поисках разгадки <br />
+              <p className={style.pHome}>
+                Подготовка до 10 минут, прохождение 60-90 минут, яркие эмоции -
+                надолго!
+              </p>
             </h1>
-               <button className={style.btnHome}>выбрать игру</button>
+            <button className={style.btnHome}>выбрать игру</button>
           </div>
-       
         </div>
-    
       </div>
-      
       <Seti/>
       <Stock/>
       <GamesCaralog/>
@@ -40,4 +38,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;
