@@ -1,5 +1,3 @@
-<<<<<<< HEAD:src/components/Header/Header.jsx
-=======
 import React from "react";
 import style from "./HeaderPromotion.module.scss";
 import img1 from "../../assets/strelka.svg";
@@ -18,4 +16,3 @@ const HeaderPromotion = () => {
 
 
 export default HeaderPromotion;
->>>>>>> 894b465085409a29ab10624dcb121c72e634d61d:src/components/HeaderPromotion/HeaderPromotion.jsx

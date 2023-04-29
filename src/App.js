@@ -1,37 +1,15 @@
-import { Route, Routes } from "react-router-dom";
-import "./App.css";
-import Decor from "./pages/Decor/Decor";
-<<<<<<< HEAD
-import { Layout } from "./Layout/Layout";
+import { useEffect, useState } from "react";
 import Home from "./pages/Home";
 import { Promotion } from "./pages/Promotion/Promotion";
-import PromotionPage from "./components/PromotionPage/PromotionPage";
-import Delivery from "./components/Delivery/Delivery.jsx";
-import { Catalog } from "./pages/Catalog/Catalog";
-
-const App = () => {
-  return (
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route path="" element={<Home />} />
-        <Route path="/promotion" element={<Promotion />} />
-        <Route path="/promotionPage" element={<PromotionPage />} />
-        <Route path="/delivery" element={<Delivery />} />
-        <Route path="/catalog" element={<Catalog />} />
-        <Route path="/decor" element={<Decor />} />
-      </Route>
-    </Routes>
-=======
-import Home from "./pages/Home";
-import Promotion from "./pages/Promotion/Promotion";
 import Private from "./pages/Private/Private";
 import PromotionPage from "./components/PromotionPage/PromotionPage";
 import Delivery from "./components/Delivery/Delivery";
 import Catalog from "./pages/Catalog/Catalog";
-import { useEffect, useState } from "react";
 import axios from "axios";
 import Header from "./Layout/Header/Header";
 import Footer from "./Layout/Footer/Footer";
+import { Routes, Route } from "react-router-dom";
+import Decor from './pages/Decor/Decor';
 
 const App = () => {
   const [data, setData] = useState([]);
@@ -73,7 +51,6 @@ const App = () => {
       </Routes>
       <Footer />
     </>
->>>>>>> 894b465085409a29ab10624dcb121c72e634d61d
   );
 };
 

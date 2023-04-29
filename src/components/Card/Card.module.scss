@@ -1,29 +1,30 @@
 .Card {
   width: 320px;
-<<<<<<< HEAD
   height: 462px;
   height: 382px;
   border: 1px solid #ced0d2;
   border-radius: 14px;
   padding: 15px;
-
-=======
   height: 400px;
   border: 1px solid #ced0d2;
   border-radius: 14px;
   padding: 15px;
->>>>>>> 894b465085409a29ab10624dcb121c72e634d61d
+
   .up {
     display: flex;
   }
+
   .textUp {
     padding-left: 20px;
+
     p {
       color: #a5aaaf;
     }
   }
+
   .textCenter {
     width: 322px;
+
     p {
       font-family: "Rubik";
       font-style: normal;
@@ -32,23 +33,27 @@
       line-height: 160%;
       color: #222528;
     }
+
     .b {
       text-decoration: underline;
     }
   }
+
   .textBottom {
     display: flex;
     color: #a5aaaf;
     gap: 5px;
+
     .p2 {
       text-decoration: underline;
     }
   }
-<<<<<<< HEAD
+
   .path {
     h3 {
       color: #db4e66;
       text-align: center;
+
       font-size: 17px h3 a {
         color: #db4e66;
         text-align: center;
@@ -56,14 +61,15 @@
         padding-top: 10px;
       }
     }
-=======
-  .path{
-    text-align: center;
-    h3 a{
+
+    .path {
+      text-align: center;
+
+      h3 a {
         color: #DB4E66;
         font-size: 17px;
         padding-top: 10px;
->>>>>>> 894b465085409a29ab10624dcb121c72e634d61d
+      }
+    }
   }
-}
 }
