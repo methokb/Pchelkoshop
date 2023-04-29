@@ -1,0 +1,98 @@
+.decor {
+  width: 1440px;
+  height: 1900px;
+  &Container {
+    padding-top: 80px;
+    width: 1165px;
+    height: 1600px;
+    margin: 0 auto;
+    &Header {
+      color: #f2b236;
+      font-weight: 500;
+    }
+    &Decor {
+      padding-top: 70px;
+    }
+  }
+  &Center {
+    width: 765px;
+    height: 1139px;
+    margin: 0 auto;
+    &Surname {
+      height: 647px;
+      width: 765px;
+      border-radius: 14px;
+      background: linear-gradient(0deg, #ced0d2, #ced0d2),
+        linear-gradient(0deg, #fafaf9, #fafaf9);
+      &Components {
+        height: 558px;
+        width: 629px;
+        border-radius: 6px;
+        margin: 0 auto;
+        padding-top: 44px;
+      }
+    }
+    &All {
+      //   display: flex;
+      //   align-items: end;
+      //   gap: 15px;
+    }
+  }
+  &Surname {
+    line-height: 37px;
+    &Input {
+      height: 40px;
+      width: 329px;
+      border-radius: 6px;
+      border: 1px solid #dbe4ee;
+      padding: 10px;
+      &T {
+        height: 40px;
+        width: 229px;
+        border-radius: 6px;
+        border: 1px solid #dbe4ee;
+        padding: 10px;
+        &i {
+          height: 40px;
+          width: 229px;
+          border-radius: 6px;
+          border: 1px solid #dbe4ee;
+          padding: 10px;
+        }
+      }
+    }
+    &P {
+      color: red;
+    }
+    &Sis {
+      color: #5b636b;
+    }
+  }
+  &Name {
+    position: relative;
+    top: 18px;
+    &Input {
+      height: 40px;
+      width: 329px;
+      border-radius: 6px;
+      border: 1px solid #dbe4ee;
+      padding: 10px;
+    }
+    &Block {
+      height: 40px;
+      width: 265px;
+      background: #E8ECEB;
+      border-radius: 6px;
+      color: #A5AAAF;
+      
+    }
+  }
+  &Components{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    align-items: start;
+  }
+}

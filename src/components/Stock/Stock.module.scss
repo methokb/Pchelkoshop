@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.containerStock {
+  height: 254px;
+  width: 1440px;
+  margin: 0 auto;
+}
+.textStock {
+  display: flex;
+  width: 1138px;
+  margin: 0 auto;
+  height: 26px;
+  gap: 870px;
+}
+.textPStock {
+  color: #db4e66;
+  font-size: 18px;
+}
+.kartoStock {
+  width: 546px;
+  height: 194px;
+  background: #ffffff;
+  border-radius: 14px;
+  margin: 0 auto;
+}
+.karto {
+  width: 485px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+.prom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 35px;
+}
+
+.textContent p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #222528;
+  width: 330.49px;
+}
+.slide{
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+  gap: 50px;
+}
+.container{
+  max-width: 1530px;
+  height: 240px;
+  margin-left: 150px;
+}

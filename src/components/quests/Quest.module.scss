@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.quests {
+  width: 1440px;
+  height: 780px;
+  padding-top: 100px;
+  margin: 0 auto;
+  &Container {
+    height: 623px;
+    max-width: 1165px;
+  }
+  &Children {
+    max-width: 1165px;
+    margin-top: 50px;
+    display: flex;
+    &_Img {
+      height: 140px;
+      width: 140px;
+      border-radius: 14px;
+    }
+    &_h2 {
+      margin-top: 40px;
+    }
+    &Baby {
+      max-width: 1165px;
+      margin-top: 50px;
+      display: flex;
+      &_Img {
+        height: 140px;
+        width: 140px;
+        border-radius: 14px;
+      }
+      &_hp2 {
+        margin-top: 20px;
+      }
+    }
+  }
+  // &Grid {
+  //   display: grid;
+  //   grid-template-columns: repeat(2, 1fr);
+  //   grid-template-rows: repeat(2, 1fr);
+  //   grid-column-gap: 20px;
+  //   grid-row-gap: 20px;
+  // }
+  &Btn {
+    width: 306px;
+    height: 54px;
+    background: #db4e66;
+    box-shadow: 2px 4px 9px #fbccd4;
+    border-radius: 14px;
+    border: none;
+    color: white;
+    margin-top: 40px;
+  }
+  &btn {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+  &BtnContainer {
+    max-width: 1022px;
+    margin: 0 auto;
+  }
+  &Help {
+    max-width: 1399px;
+    display: flex;
+    justify-content: end;
+
+    &Container {
+      height: 92px;
+      width: 276px;
+      border-radius: 64px;
+      background: white;
+      display: flex;
+      align-items: center;
+      padding-left: 10px;
+      &Components {
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+    }
+  }
+  &Brain {
+    max-width: 1165px;
+    margin-top: 50px;
+    display: flex;
+    &_h20 {
+      margin-top: 40px;
+    }
+    &_Img {
+      height: 140px;
+      width: 140px;
+      border-radius: 14px;
+    }
+  }
+  &Girls {
+    max-width: 1165px;
+    margin-top: 50px;
+    display: flex;
+    &_h2p {
+      margin-top: 40px;
+    }
+    &_Img {
+      height: 140px;
+      width: 140px;
+      border-radius: 14px;
+    }
+  }
+
+}
+.all {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}

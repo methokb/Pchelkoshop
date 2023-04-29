@@ -1,0 +1,91 @@
+.footer {
+  height: 517px;
+  width: 1440px;
+  margin: 0 auto;
+
+  &Yellow {
+    height: 378px;
+    width: 1440px;
+    background: linear-gradient(92.55deg, #f2b236 32.31%, #ff9c1a 64.34%);
+  }
+  &Center {
+    max-width: 1167px;
+    height: 236px;
+    margin: 0 auto;
+    padding-top: 58px;
+
+    &All {
+      display: flex;
+      justify-content: space-between;
+      &P {
+        height: 76px;
+        width: 265px;
+        border-radius: 10px;
+        background: #f6d799;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: 500;
+      }
+      &One {
+        line-height: 30px;
+      }
+      &Input {
+        height: 46px;
+        width: 265px;
+        border-radius: 30px;
+        background: white;
+        &I {
+          text-align: center;
+          outline: none;
+          border: none;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
+.styleStop {
+  color: #884900;
+  padding-top: 13px;
+  &C {
+    color: #884900;
+  }
+}
+
+.firstList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  color: white;
+}
+
+.firstList ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+}
+
+.lists {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+}
+.socials {
+  margin-top: 20px;
+  display: flex;
+  gap: 13px;
+}
+.lupa {
+  top: 10px;
+  position: relative;
+  left: 49px;
+}
+.footerEnd {
+  height: 139px;
+  width: 1440px;
+  background: #222528;
+}
