@@ -52,10 +52,13 @@ const Decor = () => {
                                     <br />
                                     <br />
                                     <br />
-                                <p className={style.decorNameBlock}>Россия</p>
+                                    <p className={style.decorNameBlock}>Россия</p>
                                 </div>
                             </div>
-                            .decorPlay
+                            <div className="decorPlaY">
+
+                            </div>
+                            
                         </div>
                     </div>
                 </div>

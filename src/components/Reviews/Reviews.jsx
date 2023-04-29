@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom'
 
 const Reviews = () => {
   return (
+ 
     <div className={style.cardInner}>
       {
         Comments.Reviews.map((el) => {
@@ -33,6 +34,8 @@ const Reviews = () => {
         })
       }
     </div>
+    
+    
     // <div className={style.reviews}>
     //   <div className={style.reviewsContainer}>
     //     <div className={style.reviewsHeader}>

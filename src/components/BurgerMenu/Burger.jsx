@@ -10,8 +10,6 @@ const Burger = () => {
 
           <ul className={style.ulBurger}>
             <li><Link to='/decor'>офор</Link></li>
-            <li><Link to='/catalog'>Каталог</Link></li>
-            <li><Link to='/promotion'>Акции</Link></li>
             <li><Link to="/catalog">Каталог</Link></li>
             <li><Link to="/promotion">Акции</Link></li>
             <li>Отзывы</li>

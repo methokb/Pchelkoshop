@@ -18,7 +18,7 @@ const Center = () => {
                     <option value="new">new</option>
                     <option value="new">new</option>
                 </section>
-            </div>
+            </div>                          
             <div className={style.bottom_part}>
                 <div className={style.left}>
                 <h2>Категория</h2>

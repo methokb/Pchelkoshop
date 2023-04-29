@@ -1,17 +1,17 @@
-import React, {useEffect, useRef} from "react";
+import React, { useEffect, useRef } from "react";
 import style from "./Delivery.module.scss";
 import img from "../../assets/strelka.svg";
 import one from "../../assets/1.svg";
 import two from "../../assets/2.svg";
 import three from "../../assets/3.svg";
 import { Link } from "react-router-dom";
-import {Link as Linkk} from 'react-scroll';
+import { Link as Linkk } from 'react-scroll';
 const Delivery = () => {
   const scrollRef = useRef();
 
   useEffect(() => {
 
-  })
+  }, [])
 
   return (
     <div className={style.delivery}>
