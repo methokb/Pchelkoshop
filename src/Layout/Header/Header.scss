@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 .container_header {
   height: 144px;
   width: 1440px;
@@ -12,6 +13,7 @@
   display: flex;
   justify-content: center;
 }
+
 .input {
   width: 327px;
   height: 45px;
@@ -21,6 +23,7 @@
   align-items: center;
   justify-self: center;
 }
+
 .karzina {
   width: 45px;
   height: 45px;
@@ -30,12 +33,14 @@
   justify-content: center;
   align-items: center;
 }
+
 .header {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 50px;
 }
+
 .profil {
   width: 45px;
   height: 45px;
@@ -45,6 +50,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .input_header {
   text-align: center;
   outline: none;
@@ -52,20 +58,21 @@
   position: relative;
   left: 10px;
 }
+
 .headerGap {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
 }
+
 .navbar {
   height: 69px;
   width: 1440px;
 }
-.headerLupa {
-}
-@media (max-width: 768px){
-  .container_header{
+
+@media (max-width: 768px) {
+  .container_header {
     width: 480px;
-  } 
+  }
 }
