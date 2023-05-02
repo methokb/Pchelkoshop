@@ -32,7 +32,7 @@ const Header = () => {
     <>
       <div className='container_header'>
         <div className="header">
-         <Link to='/'><img src={Header_1} alt="" /></Link> 
+         <Link to='/House'><img src={Header_1} alt="" /></Link> 
           <p>8-(000)-000-00-00 МСК (9-21)</p>
           <div className="input">
             <input onChange={(e) => setSearchTerm(e.target.value)} className='input_header' type="text" placeholder='Поиск по сайту...' />

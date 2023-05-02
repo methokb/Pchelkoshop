@@ -41,3 +41,9 @@
 body {
   background: #fafaf9;
 }
+@media (max-width: 768px){
+  .Header{
+    max-width: 768px;
+    height: 928px;
+  }
+}

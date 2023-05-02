@@ -58,13 +58,8 @@
   display: none;
 }
 
-@media (max-with: 800px) {
-  .mobileBtn {
-    display: block;
-    position: absolute;
-    right: 10px;
-    cursor: pointer;
-    z-index: 10;
-    top: 27px;
+@media (max-width: 768px){
+  .listContainer{
+    display: none;
   }
 }

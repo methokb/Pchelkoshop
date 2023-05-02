@@ -6,6 +6,10 @@
   border-radius: 14px;
   padding: 15px;
 
+  height: 400px;
+  border: 1px solid #ced0d2;
+  border-radius: 14px;
+  padding: 15px;
   .up {
     display: flex;
   }
@@ -48,5 +52,13 @@
         padding-top: 10px;
       }
     }
+  .path{
+    text-align: center;
+    h3 a{
+        color: #DB4E66;
+        font-size: 17px;
+        padding-top: 10px;
   }
+}
+}
 }

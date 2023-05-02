@@ -19,7 +19,6 @@
   border-radius: 26px;
   display: flex;
   align-items: center;
-  justify-self: center;
 }
 .karzina {
   width: 45px;
@@ -66,6 +65,13 @@
 }
 @media (max-width: 768px){
   .container_header{
-    width: 480px;
+    width: 768px;
+    
   } 
+  .input{
+    display: none;
+  }
+  .profil{
+    display: none ;
+  }
 }

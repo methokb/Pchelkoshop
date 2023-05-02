@@ -17,3 +17,12 @@ margin: 0 auto;
     position: relative;
     bottom: 100px;
 }
+@media (max-width: 768px){
+    .ContainerSeti{
+        display: none;
+    }
+    .setiContainer{
+        display: flex;
+    }
+    
+}
