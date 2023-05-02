@@ -1,5 +1,17 @@
 import { useEffect, useState } from "react";
+//Main Components
+import "./App.css";
+
+//Routers
+import { Route, Routes } from "react-router-dom";
+
+//Same Pages
+import { Layout } from "./Layout/Layout";
 import Home from "./pages/Home";
+
+//Pages
+import { LoginPage } from "./pages/AuthPages/LoginPage";
+import { RegisterPage } from "./pages/AuthPages/RegisterPage";
 import { Promotion } from "./pages/Promotion/Promotion";
 import Private from "./pages/Private/Private";
 import PromotionPage from "./components/PromotionPage/PromotionPage";
@@ -10,6 +22,10 @@ import Header from "./Layout/Header/Header";
 import Footer from "./Layout/Footer/Footer";
 import { Routes, Route } from "react-router-dom";
 import Decor from './pages/Decor/Decor';
+import { Catalog } from "./pages/Catalog/Catalog";
+import Decor from "./pages/Decor/Decor";
+import PromotionPage from "./components/PromotionPage/PromotionPage";
+import Delivery from "./components/Delivery/Delivery.jsx";
 
 const App = () => {
   const [data, setData] = useState([]);
@@ -31,26 +47,42 @@ const App = () => {
   console.log(data);
 
   return (
-    <>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/promotion" element={<Promotion />} />
-        <Route path="/private" element={<Private />} />
-        <Route path="" element={<Home />} />
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route
+          path=""
+          element={<Home />}
+        />
         <Route
           path="/promotion"
-          element={
-            <Promotion setValue={setValue} data={data} setData={setData} />
-          }
+          element={<Promotion />}
         />
-        <Route path="/catalog" element={<Catalog />} />
-        <Route path="/decor" element={<Decor />} />
-        <Route path="/promotionPage" element={<PromotionPage />} />
-        <Route path="/delivery" element={<Delivery />} />
-      </Routes>
-      <Footer />
-    </>
+        <Route
+          path="/promotionPage"
+          element={<PromotionPage />}
+        />
+        <Route
+          path="/delivery"
+          element={<Delivery />}
+        />
+        <Route
+          path="/catalog"
+          element={<Catalog />}
+        />
+        <Route
+          path="/decor"
+          element={<Decor />}
+        />
+      </Route>
+      <Route
+        path="/Login"
+        element={<LoginPage />}
+      />
+      <Route
+        path="/register"
+        element={<RegisterPage />}
+      />
+    </Routes>
   );
 };
 
