@@ -21,13 +21,13 @@ const Login = () => {
                 }));
                 push('/')
             })
-            .catch(console.error)
+            .catch(() => alert("Invalid user"))
     }
 
     return (
         <Form
             title="sign in"
-            handleClick={handleLogin}
+            handleAuth={handleLogin}
         />
     )
 }

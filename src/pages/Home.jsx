@@ -20,10 +20,9 @@ import { Navigate } from 'react-router-dom';
 const Home = () => {
 
   const dispatch = useDispatch();
+  const { isAuth, email } = useAuth();
 
-  const {isAuth , email} = useAuth();
-
-  return isAuth ?   (
+  return (
     <div>
       <div className={style.container}>
         <div className={style.Header}>
@@ -41,18 +40,16 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Seti/>
-      <Stock/>
-      <GamesCaralog/>
-      <Video/>
-      <Quest/>
-      <Acordion/>
-      <Reviews/>
+      <Seti />
+      <Stock />
+      <GamesCaralog />
+      <Video />
+      <Quest />
+      <Acordion />
+      <Reviews />
     </div>
-  ) : (
-    <Navigate to="/Login"/>
   )
-  
+
 }
 
 export default Home;

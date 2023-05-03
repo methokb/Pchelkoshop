@@ -19,7 +19,7 @@ const SignUp = () => {
                     id: user.uid,
                     token: user.accessToken,
                 }));
-                push('/Login')
+                push('/')
             })
             .catch(console.error)
     }
@@ -27,7 +27,7 @@ const SignUp = () => {
     return (
         <Form
             title="register"
-            handleClick={handleRegister}
+            handleAuth={handleRegister}
         />
     )
 }

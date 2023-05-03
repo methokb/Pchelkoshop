@@ -13,18 +13,14 @@ import Home from "./pages/Home";
 import { LoginPage } from "./pages/AuthPages/LoginPage";
 import { RegisterPage } from "./pages/AuthPages/RegisterPage";
 import { Promotion } from "./pages/Promotion/Promotion";
-import Private from "./pages/Private/Private";
 import PromotionPage from "./components/PromotionPage/PromotionPage";
-import Delivery from "./components/Delivery/Delivery";
-import Catalog from "./pages/Catalog/Catalog";
+// import Delivery from "./components/Delivery/Delivery";
+// import Catalog from "./pages/Catalog/Catalog";
 import axios from "axios";
-import Header from "./Layout/Header/Header";
-import Footer from "./Layout/Footer/Footer";
-import { Routes, Route } from "react-router-dom";
-import Decor from './pages/Decor/Decor';
+// import Decor from './pages/Decor/Decor';
 import { Catalog } from "./pages/Catalog/Catalog";
 import Decor from "./pages/Decor/Decor";
-import PromotionPage from "./components/PromotionPage/PromotionPage";
+// import PromotionPage from "./components/PromotionPage/PromotionPage";
 import Delivery from "./components/Delivery/Delivery.jsx";
 
 const App = () => {
