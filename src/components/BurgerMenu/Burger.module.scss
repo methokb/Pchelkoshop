@@ -3,11 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .BurgerMenu {
   height: 69px;
   width: 1440px;
   margin: 0 auto;
 }
+
 .ulBurger {
   display: flex;
   justify-content: center;
@@ -16,16 +18,17 @@
   align-items: center;
   margin: 0;
 }
+
 .textBurger {
   display: flex;
   justify-content: end;
 }
+
 .hoveredList {
   display: none;
 
   a {
     color: #000;
-    background: #fafaf9;
     width: 140px;
     text-align: center;
     padding-top: 18.5px;
@@ -44,16 +47,19 @@
   padding-top: 25px;
   padding-bottom: 25px;
 }
+
 .liBurger:hover .hoveredList {
   display: block;
   flex-direction: column;
   position: absolute;
   display: flex;
 }
+
 .listContainer {
   max-width: 1090px;
   margin: 0 auto;
 }
+
 .mobileBtn {
   display: none;
 }
